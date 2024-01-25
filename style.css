@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
 
 body{
@@ -17,7 +19,9 @@ body{
 #main{
     background-color: hsl(0, 0%, 12%);
     min-width: 300px;
-    width: 30%;
+    width: 25%;
+    padding: 3rem 2rem;
+    border-radius: 5px;
 }
 
 #img{
@@ -29,4 +33,36 @@ body{
     width: 65px;
     height: 65px;
     border-radius: 50%;
+}
+
+#info{
+    color: #fff;
+    text-align: center;
+}
+
+#career{
+    margin-top: 1rem;
+}
+
+#links > a{
+    display: block;
+    text-decoration: none;
+    margin: 0.75rem 0;
+    text-align: center;
+    border-radius: 7px;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.5rem;
+    background-color: hsl(0, 0%, 20%);
+}
+
+#links > a:hover{
+    background-color: hsl(75, 94%, 57%);
+}
+
+#name{
+    font-size: 2rem;
+}
+#location{
+    color: hsl(75, 94%, 57%);
 }
